@@ -1,0 +1,285 @@
+body{
+     margin:0;
+     padding:0;
+
+}
+*{
+        box-sizing: border-box;
+}
+header{
+      max-width:1800px;
+      height:900px; 
+      background-image:url(../img/banner.jpg);
+      background-position: center ;
+      background-attachment: scroll;
+      
+}
+header .fa{
+         color:#fff;
+         margin-top:30px;
+}
+
+.inner{
+       width:80%;
+       height:900px;
+       background-image: url("../img/banner.jpg");
+       margin:0 auto;
+       background-position:center center;
+}
+nav {
+       width:100%;
+       height:90px;
+       display:flex;
+       justify-content:space-between;
+       background-attachment: fixed;
+}
+nav .img1{
+        width:20%;
+        height:70px;
+        font-weight:900;
+}
+
+nav ul {
+       display:flex;
+       list-style: none;
+}
+nav ul li{
+        margin-right:35px;
+        margin-top:10px;
+        font-size:20px;
+        
+}
+ ul  a{
+        text-decoration: none;
+        color:#ffff;
+}
+ul a:hover{
+        color:#a0214a;
+}
+.cartoons{
+       margin-top:20px;
+       
+}
+.cartoons img{
+         padding-right:30px;
+
+}
+/* headings starts */
+.headings h1 {
+        font-size:60px;
+        color:#fff;
+
+}
+.headings p {
+        font-size:25px;
+        color:#fff;
+        line-height:40px;
+
+}
+
+.headings button{
+         width:190px;
+         height:60px;
+         background-color: transparent;
+         border:1px solid #fff;
+         border-radius:50px;
+         color:#fff;
+}
+.fa {
+        font-size:30px;
+        padding-left:28px;
+}
+
+/* About Us starts */
+
+.about-us{
+        max-width:1800px;
+        text-align: center;
+}
+.about-us h2 {
+         font-size:35px;
+}
+.about-us p{
+         font-size:20px;  
+}
+.flex-box{
+         display:flex;
+         flex-wrap:wrap;
+         
+
+}
+.center{
+         width:80%;
+         margin:0 auto;
+         border:1px solid purple;
+         border-radius: 20px;
+         padding:30px;
+
+
+}
+.center .left{
+           margin-left:40px;
+           text-align: left;
+
+}
+.left button{
+          width:130px;
+          height:45px;
+          background-color: purple;
+          color:#fff;
+          border:0;
+          border-radius:50px;
+}
+
+/* ourlibrary starts */
+
+
+.ourlibrary{
+          width:80%;
+          margin:0 auto;
+          text-align: center;
+          padding:20px;
+
+          
+}
+.ourlibrary h2{
+         font-size:35px;
+}
+.ourlibrary p{
+         font-size:20px;
+
+}
+.library{
+         width:100%;
+         background-color: purple;
+}
+.library-img{
+         width:100%;
+         background-color: purple;
+}
+.library-img img{
+         width:60%;
+
+}
+
+ .ourlibrary .more{
+
+        width:140px;
+        height:45px;
+        background-color: purple;
+        color:#fff;
+        margin-top:30px;
+        border:0;
+        color:#fff;
+        border-radius:50px;
+}
+
+/* ourbooks starts */
+
+.our-books{
+        width:80%;
+        margin:0 auto;
+        text-align:center;
+        padding:30px;
+
+}
+.our-books h2{
+         font-size:40px;
+}
+.our-books p{
+          font-size:20px;
+}
+.flex-box{
+        display:flex;
+        flex-wrap:nowrap;
+        justify-content: space-between;
+}
+.our-books .center1{
+        width:100%;
+}
+.center1 img{
+         width:60%;
+}
+.our-books .more{
+
+        width:140px;
+        height:45px;
+        background-color: purple;
+        color:#fff;
+        margin-top:30px;
+        border:0;
+        color:#fff;
+        border-radius:50px;
+}
+/* contact starts */
+.contact1{
+           width:100%;
+           background-color: black;
+}
+.contact{
+         width:80%;
+         height:250px;
+         margin:0 auto;
+         background-color:black;
+         display:flex;
+         justify-content:center;
+         align-items: center;
+}
+.contact form input{
+   height:35px;          
+}
+.send{
+         display:block;
+         margin-left:40%;
+         width:110px;
+         height:45px;
+         color:#fff;
+         background-color: purple;
+         border:0;
+}
+
+/* last 1 starts */
+
+.last1{
+       width:80%;
+       margin:0 auto;
+       background-color: purple;
+       color:#fff;
+}
+
+.flex-box{
+        justify-content: space-around;
+}
+
+.left1 h2{
+         text-decoration: underline;
+}
+.right1 h2{
+         text-decoration: underline;
+}
+
+.right1 form input{
+       width:50%;
+                
+
+}
+.inner1{
+         width:100%;
+         background-color: purple;
+         padding:30px;
+}
+button{
+         width:110px;
+         color:#fff;
+         background-color: black;
+         border:0;
+         
+}
+
+/* footer starts */
+
+footer{
+         width:100%;
+         padding:20px;
+         text-align: center;
+}
